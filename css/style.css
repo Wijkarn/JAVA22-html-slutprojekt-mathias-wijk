@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+h1{
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+nav{
+    height: 60px;
+}
+
+footer{
+    text-align: center;
+    height: 50px;
+}
+
+div.projekt{
+    display: flex;
+    padding: 1rem;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+article{
+    border: 1px solid greenyellow;
+    flex-basis: 40%;
+    margin: 1% 5%;
+}
+
+img{
+    width: 100%;
+}
+
+.projekt{
+    text-align: center;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: inherit;
+}
