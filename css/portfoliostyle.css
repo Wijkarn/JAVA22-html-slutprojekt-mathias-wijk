@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 1rem;
+}
+
+div.artikel{
+    display: flex;
+    padding: 1rem;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+article{
+    flex-basis: 100%;
+    margin: 0% 5% 5%;
+}
+
+img{
+    width: 100%;
+}
+
+img.projekt{
+    border-radius: 1%;
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+}
