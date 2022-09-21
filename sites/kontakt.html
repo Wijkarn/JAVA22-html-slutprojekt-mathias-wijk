@@ -12,12 +12,35 @@
 </head>
 
 <body>
-    <h1>Yeet</h1>
-    <nav class="nav justify-content-center bg-primary bg-gradient">
-        <a class="nav-link text-light fs-3 btn btn-outline-dark" href="../index.html">Start</a>
-        <a class="nav-link text-light fs-3 btn btn-outline-dark" href="./info.html">Info</a>
-        <a class="nav-link text-light fs-3 btn btn-outline-dark" href="#">Kontakt</a>
-    </nav>
+    <div class="bg-primary bg-gradient">
+        <h1>Kontakt</h1>
+        <nav class="nav justify-content-center">
+            <a class="nav-link text-light fs-3 btn btn-outline-dark" href="../index.html">Start</a>
+            <a class="nav-link text-light fs-3 btn btn-outline-dark" href="./info.html">Info</a>
+            <a class="nav-link text-light fs-3 btn btn-outline-dark" href="#">Kontakt</a>
+        </nav>
+    </div>
+    <h2>Vill du kontakta mig? Skriv in dina uppgifter så återkommer jag så for jag kan.</h2>
+    <form action="./action_page.php" method="post">
+        <label for="name">Förnamn och efternamn:</label>
+        <br>
+        <textarea name="name" id="name" cols="45" rows="1"></textarea>
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <textarea name="emial" id="email" cols="45" rows="1"></textarea>
+        <br>
+        <label for="telefonnummer">Telefonnummer:</label>
+        <br>
+        <textarea name="telefonnummer" id="telefonnummer" cols="45" rows="1"></textarea>
+        <br>
+        <label for="meddelande">Meddelande:</label>
+        <br>
+        <textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea>
+        <br>
+        <input type="Submit" value="Skicka">
+    </form>
+    
 </body>
 
 </html>
