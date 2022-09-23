@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+nav {
+    height: 60px;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+}
+
+footer.empty {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+div.projekt {
+    display: flex;
+    padding: 1rem;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+article {
+    flex-basis: 40%;
+    margin: 3% 5%;
+    border-radius: 10px;
+    transition: all 200ms ease-out;
+}
+
+article:hover {
+    box-shadow: 0 0 50px rgb(35 173 255);
+}
+
+img {
+    width: 100%;
+}
+
+img.projekt {
+    border-radius: 1%;
+}
+
+h2.projekt {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+}
+
+input,
+textarea {
+    border: 1px solid black;
+}
+
+form {
+    text-align: center;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}

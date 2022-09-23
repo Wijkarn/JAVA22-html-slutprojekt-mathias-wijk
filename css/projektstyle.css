@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+body{
+    background-image: linear-gradient(#0066ff, white);
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 1rem;
+    text-shadow: 2px 2px 8px  yellow;
+}
+
+div.artikel{
+    display: flex;
+    padding: 1rem;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+article{
+    flex-basis: 25%;
+    margin: 0% 4% 5%;
+}
+
+img.artikel{
+    width: 100%;
+}
+
+img{
+    border-radius: 1%;
+}
+
+img.page{
+    width: 80%;
+    margin: 2% 10%;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+div.video {
+    text-align:center;
+}
+
+video{
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    height: 50px;
+}
