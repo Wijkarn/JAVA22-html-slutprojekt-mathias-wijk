@@ -8,8 +8,9 @@
 
 h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     margin-top: 1rem;
+    text-shadow: 2px 2px 8px  yellow;
 }
 
 div.artikel{
@@ -20,19 +21,35 @@ div.artikel{
 }
 
 article{
-    flex-basis: 100%;
-    margin: 0% 5% 5%;
+    flex-basis: 25%;
+    margin: 0% 4% 5%;
 }
 
-img{
+img.artikel{
     width: 100%;
 }
 
-img.projekt{
+img{
     border-radius: 1%;
 }
 
 p{
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+img.page{
+    width: 80%;
+    margin: 2% 10%;
+}
+footer{
+    margin-top: auto;
+    text-align: center;
+    height: 50px;
+}
+
+body{
+    background-image: linear-gradient(#0066ff, white);
 }
